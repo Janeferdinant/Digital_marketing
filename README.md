@@ -81,7 +81,8 @@ Upon completing this course, you will be able to:
 
 We encourage you to actively participate in the course, complete the assignments, and engage with the community. By doing so, you'll maximize your learning experience and achieve your digital marketing goals.
 <a href="file:///C:/Users/Lijo%20George/Desktop/job.html">job description</a>
-
+<a href="https://docs.google.com/spreadsheets/d/1DbS23khpwMWFov2DuTlGO46JY86PhhQR/edit?usp=sharing&ouid=103493295690821530604&rtpof=true&sd=true"> Google Sheet</a>
+<a href="https://docs.google.com/document/d/1X2IgIYiUPdcrzlntV4fTZZgZy2P8wiLZ1WiVhwWdKCg/edit?usp=sharing">Google Doc</a>
 
 
 **For more information and job applications, check out these job boards:**
