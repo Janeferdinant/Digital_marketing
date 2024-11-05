@@ -80,6 +80,7 @@ Upon completing this course, you will be able to:
 * Stay updated on the latest trends in digital marketing
 
 We encourage you to actively participate in the course, complete the assignments, and engage with the community. By doing so, you'll maximize your learning experience and achieve your digital marketing goals.
+<a href="file:///C:/Users/Lijo%20George/Desktop/job.html">job description</a>
 
 **Let's embark on this exciting journey together!**
 | Position | Education/Experience | Key Skills | Tools |
