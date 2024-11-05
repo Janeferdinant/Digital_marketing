@@ -81,7 +81,7 @@ Upon completing this course, you will be able to:
 
 We encourage you to actively participate in the course, complete the assignments, and engage with the community. By doing so, you'll maximize your learning experience and achieve your digital marketing goals.
 <a href="job.html">job description</a>
-<li><a href="DigitalMarketing(1).xlsx"> Google Sheet</a></li>
+<li><a href="Digital Marketing(1).xlsx"> Google Sheet</a></li>
 <li><a href="digital marketing career 2024.docx">Google Doc</a></li>
 <li><a href="intex.html">Home</a></li>
 
