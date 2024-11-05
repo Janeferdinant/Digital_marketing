@@ -85,13 +85,4 @@ We encourage you to actively participate in the course, complete the assignments
 <li><a href="https://github.com/Janeferdinant/Digital_marketing/blob/main/operchunites%20of%20digital%20marketing%20in%20the%20current...%20(1).docx">Google Doc</a></li>
 <li><a href="intex.html">Home</a></li>
 
-**For more information and job applications, check out these job boards:**
-<ul>
-  <li><a href="https://www.indeed.com/">Indeed</a></li>
-  <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-  <li><a href="https://www.glassdoor.com/">Glassdoor</a></li>
-  <li><a href="https://www.dice.com/">Dice</a></li>
-  <li><a href="https://angel.co/">AngelList</a></li>
-</ul>
 
-**Remember to tailor your resume and cover letter to the specific job requirements and highlight your relevant skills and experience.**
