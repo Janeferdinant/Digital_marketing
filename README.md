@@ -81,8 +81,8 @@ Upon completing this course, you will be able to:
 
 We encourage you to actively participate in the course, complete the assignments, and engage with the community. By doing so, you'll maximize your learning experience and achieve your digital marketing goals.
 <a href="job.html">job description</a>
-<li><a href="https://github.com/Janeferdinant/Digital_marketing/blob/main/Digital%20Marketing%20(1).xlsx"> Google Sheet</a></li>
-<li><a href="https://github.com/Janeferdinant/Digital_marketing/blob/main/operchunites%20of%20digital%20marketing%20in%20the%20current...%20(1).docx">Google Doc</a></li>
+<li><a href="DigitalMarketing(1).xlsx"> Google Sheet</a></li>
+<li><a href="operchunites of digital marketing.docx">Google Doc</a></li>
 <li><a href="intex.html">Home</a></li>
 
 
