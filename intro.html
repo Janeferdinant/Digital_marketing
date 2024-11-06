@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Marketing Trends 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Digital Marketing Trends 2025</h1>
+
+  <section class="trend-section">
+    <h2>Trends</h2>
+    <ul id="trends-list"></ul>
+  </section>
+
+  <section class="career-section">
+    <h2>Career Opportunities</h2>
+    <ul id="career-opportunities-list"></ul>
+  </section>
+
+  <section class="organization-section">
+    <h2>Top Organizations</h2>
+    <ul id="top-organizations-list"></ul>
+  </section>
+
+  <section class="investment-section">
+    <h2>Investments</h2>
+    <ul id="investments-list"></ul>
+  </section>
+
+  <section class="industry-section">
+    <h2>Top Industries</h2>
+    <ul id="top-industries-list"></ul>
+  </section>
+
+  <section class="tool-section">
+    <h2>Digital Marketing Tools</h2>
+    <ul id="digital-marketing-tools-list"></ul>
+  </section>
+
+  <section class="platform-section">
+    <h2>Digital Marketing Platforms</h2>
+    <ul id="digital-marketing-platforms-list"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<style>/* Add your custom styles here */
+    section {
+      margin-bottom: 20px;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }</style>
+    <script>const digitalMarketingData = {
+        trends: [
+          { trend: 'AI Integration', description: 'AI-powered chatbots, content generation, and predictive analytics' },
+          { trend: 'Voice Search Optimization', description: 'Optimize content for voice assistants' },
+          { trend: 'Personalization', description: 'Tailored experiences using data and AI' },
+          { trend: 'Video Marketing', description: 'Video content, live streaming, AR, and VR experiences' },
+          { trend: 'Influencer Marketing', description: 'Partner with nano-influencers for targeted reach' },
+        ],
+        careerOpportunities: [
+          { jobTitle: 'Digital Marketing Manager', description: 'Develop and execute digital marketing strategies' },
+          { jobTitle: 'SEO Specialist', description: 'Optimize website for search engines' },
+          { jobTitle: 'Social Media Manager', description: 'Manage social media presence and campaigns' },
+          { jobTitle: 'Content Strategist', description: 'Create and distribute valuable content' },
+          { jobTitle: 'Data Analyst', description: 'Analyze data to inform marketing decisions' },
+        ],
+        topOrganizations: [
+          { organization: 'Amazon', investment: '$10 billion+', description: 'Personalized recommendations' },
+          { organization: 'Google', investment: '$20 billion+', description: 'AI-powered search and advertising' },
+          { organization: 'Facebook', investment: '$10 billion+', description: 'Social media and advertising' },
+          { organization: 'Coca-Cola', investment: '$1 billion+', description: 'Influencer marketing and social media' },
+          { organization: 'Nike', investment: '$500 million+', description: 'Influencer marketing and social media campaigns' },
+        ],
+        investments: [
+          { category: 'Global digital marketing spend', amount: '$500 billion+' },
+          { category: 'Average business spend', amount: '10%-20% of budget' },
+          { category: 'Top industries investing', amount: 'E-commerce, Finance, Healthcare, Technology, Retail' },
+        ],
+        topIndustries: [
+          { industry: 'E-commerce', description: 'Online shopping and retail' },
+          { industry: 'Finance', description: 'Banking and financial services' },
+          { industry: 'Healthcare', description: 'Medical and health services' },
+          { industry: 'Technology', description: 'Software and hardware development' },
+          { industry: 'Retail', description: 'Brick-and-mortar stores and online retail' },
+        ],
+        digitalMarketingTools: [
+          { tool: 'Google Analytics', description: 'Web analytics and tracking' },
+          { tool: 'HubSpot', description: 'Inbound marketing and sales software' },
+          { tool: 'Ahrefs', description: 'SEO and content marketing tool' },
+          { tool: 'Hootsuite', description: 'Social media management and scheduling' },
+          { tool: 'Mailchimp', description: 'Email marketing and automation' },
+        ],
+        digitalMarketingPlatforms: [
+          { platform: 'Facebook', description: 'Social media and advertising' },
+          { platform: 'Instagram', description: 'Visual content and influencer marketing' },
+          { platform: 'Twitter', description: 'Real-time engagement and customer service' },
+          { platform: 'LinkedIn', description: 'Professional networking and B2B marketing' },
+          { platform: 'YouTube', description: 'Video content and advertising' },
+        ],
+      };
+      
+      // Displaying data on the webpage
+      document.addEventListener('DOMContentLoaded', () => {
+        const trendsList = document.getElementById('trends-list');
+        const careerOpportunitiesList = document.getElementById('career-opportunities-list');
+        const topOrganizationsList = document.getElementById('top-organizations-list');
+        const investmentsList = document.getElementById('investments-list');
+        const topIndustriesList = document.getElementById('top-industries-list');
+        const digitalMarketingToolsList = document.getElementById('digital-marketing-tools-list');
+        const digitalMarketingPlatformsList = document.getElementById('digital-marketing-platforms-list');
+      
+        // Loop through each data section and populate the lists
+        
+        for (const section of [
+            digitalMarketingData.trends,
+            digitalMarketingData.careerOpportunities,
+            digitalMarketingData.topOrganizations,
+            digitalMarketingData.investments,
+            digitalMarketingData.topIndustries,
+            digitalMarketingData.digitalMarketingTools,
+            digitalMarketingData.digitalMarketingPlatforms,
+          ]) {
+            const listId = section === digitalMarketingData.trends ? 'trends-list' :
+                           section === digitalMarketingData.careerOpportunities ? 'career-opportunities-list' :
+                           section === digitalMarketingData.topOrganizations ? 'top-organizations-list' :
+                           section === digitalMarketingData.investments ? 'investments-list' :
+                           section === digitalMarketingData.topIndustries ? 'top-industries-list' :
+                           section === digitalMarketingData.digitalMarketingTools ? 'digital-marketing-tools-list' :
+                           'digital-marketing-platforms-list';
+      
+            const list = document.getElementById(listId);
+      
+            section.forEach((item) => {
+              const listItem = document.createElement('li');
+              listItem.textContent = `${item.trend || item.jobTitle || item.organization || item.category || item.industry || item.tool || item.platform}: ${item.description || item.investment || item.amount}`;
+              list.appendChild(listItem);
+            });
+          }
+        });
+        
+    </script>
+    
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital Marketing Trends 2025</title>
+	<style>
+		table {
+			border-collapse: collapse;
+		}
+		
+		th, td {
+			border: 1px solid #ccc;
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Digital Marketing Trends 2025</h1>
+	
+	<h2>Trends</h2>
+	<table>
+		<tr>
+			<th>Trend</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>AI Integration</td>
+			<td>AI-powered chatbots, content generation, and predictive analytics</td>
+		</tr>
+		<tr>
+			<td>Voice Search Optimization</td>
+			<td>Optimize content for voice assistants</td>
+		</tr>
+		<!-- Add more trends here -->
+	</table>
+	
+	<h2>Career Opportunities</h2>
+	<table>
+		<tr>
+			<th>Job Title</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>Digital Marketing Manager</td>
+			<td>Develop and execute digital marketing strategies</td>
+		</tr>
+		<tr>
+			<td>SEO Specialist</td>
+			<td>Optimize website for search engines</td>
+		</tr>
+		<!-- Add more jobs here -->
+	</table>
+	
+	<h2>Top Organizations</h2>
+	<table>
+		<tr>
+			<th>Organization</th>
+			<th>Investment</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>Amazon</td>
+			<td>$10 billion+</td>
+			<td>Personalized recommendations</td>
+		</tr>
+		<tr>
+			<td>Google</td>
+			<td>$20 billion+</td>
+			<td>AI-powered search and advertising</td>
+		</tr>
+		<!-- Add more organizations here -->
+	</table>
+	
+	<h2>Investments</h2>
+	<table>
+		<tr>
+			<th>Category</th>
+			<th>Amount</th>
+		</tr>
+		<tr>
+			<td>Global digital marketing spend</td>
+			<td>$500 billion+</td>
+		</tr>
+		<tr>
+			<td>Average business spend</td>
+			<td>10%-20% of budget</td>
+		</tr>
+		<!-- Add more investments here -->
+	</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital Marketing Trends 2025</title>
+	<style>
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		li {
+			margin-bottom: 10px;
+		}
+	</style>
