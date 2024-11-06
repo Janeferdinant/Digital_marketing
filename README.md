@@ -84,5 +84,5 @@ We encourage you to actively participate in the course, complete the assignments
 <li><a href="Digital Marketing (1).xlsx"> Google Sheet</a></li>
 <li><a href="digital marketing career 2024.docx">Google Doc</a></li>
 <li><a href="intex.html">Home</a></li>
-
+<li><a href="intro.html">DAy 1</a></li>
 
