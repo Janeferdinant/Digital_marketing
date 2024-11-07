@@ -369,3 +369,155 @@
 Save this code in an HTML file (e.g., `index.html`) and open it in a web browser to view the page.
 
 Would you like me to add or modify any sections?
+Here's an example code using HTML, CSS, and JavaScript to create interactive graphs:
+
+*index.html*
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Marketing Spend Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Marketing Spend Dashboard</h1>
+    <div class="graph-container">
+      <canvas id="bar-chart"></canvas>
+    </div>
+    <div class="graph-container">
+      <canvas id="line-chart"></canvas>
+    </div>
+    <div class="graph-container">
+      <canvas id="pie-chart"></canvas>
+    </div>
+  </div>
+
+  <script src="(link unavailable)"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+```
+
+*styles.css*
+```
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.graph-container {
+  margin-bottom: 40px;
+}
+
+canvas {
+  width: 100%;
+  height: 400px;
+}
+```
+
+*script.js*
+```
+// Data
+const digitalMarketingSpend = {
+  labels: ['Global', 'India', 'Canada', 'US'],
+  datasets: [{
+    label: 'Digital Marketing Spend',
+    data: [175000000, 2000000000, 5500000000, 40000],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(255, 206, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)'
+    ],
+    borderColor: [
+      'rgba(255, 99, 132, 1)',
+      'rgba(54, 162, 235, 1)',
+      'rgba(255, 206, 86, 1)',
+      'rgba(75, 192, 192, 1)'
+    ],
+    borderWidth: 1
+  }]
+};
+
+const digitalMarketingGrowth = {
+  labels: ['2020', '2021', '2022', '2023'],
+  datasets: [{
+    label: 'India Growth',
+    data: [25, 30, 35, 40],
+    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+    borderColor: 'rgba(54, 162, 235, 1)',
+    borderWidth: 1
+  }, {
+    label: 'Canada Growth',
+    data: [15, 20, 25, 30],
+    backgroundColor: 'rgba(255, 206, 86, 0.2)',
+    borderColor: 'rgba(255, 206, 86, 1)',
+    borderWidth: 1
+  }]
+};
+
+const educationConsultancyBudget = {
+  labels: ['Digital Marketing', 'Content Marketing', 'Social Media', 'Email Marketing'],
+  datasets: [{
+    label: 'Budget Allocation',
+    data: [40, 25, 20, 15],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(255, 206, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)'
+    ],
+    borderColor: [
+      'rgba(255, 99, 132, 1)',
+      'rgba(54, 162, 235, 1)',
+      'rgba(255, 206, 86, 1)',
+      'rgba(75, 192, 192, 1)'
+    ],
+    borderWidth: 1
+  }]
+};
+
+// Create graphs
+const barChart = new Chart(document.getElementById('bar-chart'), {
+  type: 'bar',
+  data: digitalMarketingSpend,
+  options: {
+    title: {
+      display: true,
+      text: 'Digital Marketing Spend'
+    }
+  }
+});
+
+const lineChart = new Chart(document.getElementById('line-chart'), {
+  type: 'line',
+  data: digitalMarketingGrowth,
+  options: {
+    title: {
+      display: true,
+      text: 'Digital Marketing Growth'
+    }
+  }
+});
+
+const pieChart = new Chart(document.getElementById('pie-chart'), {
+  type: 'pie',
+  data: educationConsultancyBudget,
+  options: {
+    title: {
+      display: true,
+      text: 'Education Consultancy Budget Allocation'
+    }
+  }
+});
+```
+
+This code uses Chart.js to create three interactive graphs:
+
+1. Bar chart: Digital Marketing Spend
+2. Line
