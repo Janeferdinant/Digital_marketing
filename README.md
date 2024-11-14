@@ -86,4 +86,5 @@ We encourage you to actively participate in the course, complete the assignments
 <li><a href="intex.html">Home</a></li>
 <li><a href="intro.html">DAy 1</a></li>
 <li><a href="excel_svg.html">excel</a></li>
+<li><a href="graphic-design-tools">graphic</a></li>
 
