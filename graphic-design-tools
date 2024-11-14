@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boost Your Graphic Design Game with These Top Tools!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Boost Your Graphic Design Game with These Top Tools!</h1>
+
+    <h2>Visual Design</h2>
+    <ul>
+        <li><a href="https://www.adobe.com/creativecloud.html">Adobe Creative Cloud</a></li>
+        <li><a href="https://www.sketchapp.com/">Sketch</a></li>
+        <li><a href="https://www.figma.com/">Figma</a></li>
+    </ul>
+
+    <h2>Graphic Editing</h2>
+    <ul>
+        <li><a href="https://www.adobe.com/photoshop">Photoshop</a></li>
+        <li><a href="https://www.adobe.com/illustrator">Illustrator</a></li>
+        <li><a href="https://www.canva.com/">Canva</a></li>
+    </ul>
+
+    <h2>UI/UX Design</h2>
+    <ul>
+        <li><a href="https://www.invisionapp.com/">InVision</a></li>
+        <li><a href="https://adobe.com/xd">Adobe XD</a></li>
+        <li>(link unavailable)</li>
+    </ul>
+
+    <h2>Typography</h2>
+    <ul>
+        <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+        <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+        <li>Typography.js</li>
+    </ul>
+
+    <h2>Color Palette</h2>
+    <ul>
+        <li><a href="https://colorhunt.co/">Color Hunt</a></li>
+        <li><a href="https://color.adobe.com/">Adobe Color</a></li>
+        <li><a href="https://coolors.co/">Coolors</a></li>
+    </ul>
+
+    <h2>Other Essentials</h2>
+    <ul>
+        <li><a href="https://graphicriver.net/">Graphic River</a></li>
+        <li><a href="https://unsplash.com/">Unsplash</a></li>
+        <li><a href="https://www.pexels.com/">Pexels</a></li>
+    </ul>
+
+    <p>Stay ahead of the curve and upgrade your design skills with these top tools!</p>
+
+    <p>Share your favorite design tools in the comments below!</p>
+
+    <p>#GraphicDesign #DesignTools #VisualDesign #UIUX #Typography #ColorPalette #DesignResources #CreativeCloud #Adobe #Sketch #Figma #Photoshop #Illustrator #Canva</p>
+</body>
+</html>
