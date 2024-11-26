@@ -89,4 +89,5 @@ We encourage you to actively participate in the course, complete the assignments
 <li><a href="graphic-design-tools.html">graphic</a></li>
 <li><a href="Digital marketing resources.html">Resources</a></li>
 <li><a href="assignment.html">assignment</a></li>
+<li><a href="content.html">content</a></li>
 
