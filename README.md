@@ -87,4 +87,6 @@ We encourage you to actively participate in the course, complete the assignments
 <li><a href="intro.html">DAy 1</a></li>
 <li><a href="excel_svg.html">excel</a></li>
 <li><a href="graphic-design-tools.html">graphic</a></li>
+<li><a href="Digital marketing resources.html">graphic</a></li>
+
 
